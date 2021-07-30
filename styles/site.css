@@ -104,7 +104,23 @@ article {
   }
 }
 
-/* Pie */
+/* Index.html */
+h1 {
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.sub-title {
+  background-color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+/* Pies.html */
 .pie {
   width: 200px;
   padding: 10px;
@@ -113,6 +129,11 @@ article {
   border-radius: 5px;
   background-color: #e2892f;
   color: #fff;
+}
+
+
+#pies-heading {
+  text-align: left;
 }
 
 .pie img {
@@ -143,22 +164,6 @@ article {
   color: rgb(255, 136, 136);
 }
 
-/* Index.html */
-h1 {
-  font-size: 3em;
-  margin-top: 0.5em;
-}
-
-.banner {
-  max-width: 100%;
-}
-
-.sub-title {
-  background-color: #fff;
-  font-size: 1.5em;
-  padding: 10px;
-}
-
 /* order.html */
 #order {
   text-align: left;
@@ -176,9 +181,49 @@ textarea:focus {
   outline: solid thin #ffd700;
 }
 
-/* pies.html */
-#pies-heading {
-  text-align: left;
+@media only screen and (min-width: 768px) {
+  article {
+    width: 350px;
+  }
+}
+
+.pie {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+  padding: 10px;
+  border: solid 1px #999;
+  border-radius: 2px;
+  width: 100%;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="reset"] {
+  background: transparent;
+  border: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  border: solid 1px #999;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+input[type="submit"]:active:focus {
+  background-color: #999;
+  outline: none;
 }
 
 /* contact.html */
