@@ -1,6 +1,6 @@
 # pie-shop
 
-A site for selling pies
+A site that takes your orders and gets your location (with your permission ofcourse)
 
 ![screenshot](images/homepage.png)
 
@@ -12,13 +12,15 @@ Built With
 
 ● Javascript
 
+● HTML and CSS Linters
+
 # Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ⬜ clone the app by running this command `git clone https://github.com/fobadara/pie-shop.git`
 
-⬜ Run this command `cd my-portfolio-site-1`
+⬜ Run this command `cd pie-shop`
 
 ⬜ Open in browser
 
@@ -48,7 +50,7 @@ GitHub: github.com/fobadara
 
 Twitter: fob90s@twitter.com
 
-# Contributing 🤝
+🤝 # Contributing 
 
 Contributions, issues, and feature requests are welcome!
 
@@ -70,6 +72,6 @@ A big thank you to pngtree whose images have been used:
 
 Lots of appreciations to my wife, Habeebah who keeps supporting me
 
-# License 📝
+📝 # License 
 
 This project is licensed by [MIT](LICENSE)

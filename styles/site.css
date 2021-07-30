@@ -12,7 +12,6 @@ body {
 }
 
 body {
-  font-family: cursive, sans-serif;
   background-color: #999;
   font-family: "Lato", sans-serif;
 }
@@ -22,7 +21,7 @@ body {
   letter-spacing: 2px;
   text-transform: capitalize;
   color: #a493c0;
-  font-family: "Cookie", verdana Arial sans-serif;
+  font-family: "Cookie", cursive;
   text-align: center;
   font-weight: bold;
 }
@@ -110,8 +109,10 @@ article {
   width: 200px;
   padding: 10px;
   margin: 10px;
-  background-color: #fff;
-  border: solid 1px #ccc;
+  border: solid #df7a7a;
+  border-radius: 5px;
+  background-color: #e2892f;
+  color: #fff;
 }
 
 .pie img {
@@ -158,30 +159,15 @@ h1 {
   padding: 10px;
 }
 
-.pie button {
-  background-color: #f6aeae;
-  padding: 10px;
-  border: solid 1px #f6aeae;
-  border-radius: 3px;
-  color: rgb(255, 136, 136);
-}
-
 /* order.html */
 #order {
   text-align: left;
 }
 
-.pie {
-  border: solid #df7a7a;
-  border-radius: 5px;
-  background-color: #e2892f;
-  color: #fff;
-}
-
 input:hover,
 select:hover,
 textarea:hover {
-  box-shadow: 2px 2px 2px 2px #888888;
+  box-shadow: 2px 2px 2px 2px #888;
 }
 
 input:focus,

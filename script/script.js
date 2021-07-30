@@ -1,5 +1,4 @@
 window.addEventListener("DOMContentLoaded", function (e) {
-  
   // Script for pie.html
   const orderButtons = document.querySelectorAll("button[data-order]");
   orderButtons.forEach(function (button) {
@@ -20,7 +19,6 @@ window.addEventListener("DOMContentLoaded", function (e) {
       window.location.href = url;
     });
   });
-
 
   let locationBox = document.querySelector("#location");
   let location = {
@@ -62,7 +60,7 @@ window.addEventListener("DOMContentLoaded", function (e) {
     if (orderInput != null) {
       orderInput.value = order;
     }
-      
+
     const img = pie.querySelector("img");
     img.setAttribute("src", `images/${pieOrder.id}.png`);
     img.setAttribute("alt", pieOrder.title);

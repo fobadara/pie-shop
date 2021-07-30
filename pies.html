@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pies | Bethany's Pie Shop</title>
-    <link rel="icon" href="images/favicon32.png">
+    <link rel="icon" href="images/favicon32.png" />
     <link rel="stylesheet" href="styles/site.css" type="text/css" />
   </head>
   <body>
@@ -20,12 +20,15 @@
     </header>
     <main>
       <aside>
-        <img src="images/logo1200.png" title="My company logo"
-        alt="An image showing a toque above the word 'bakery' encircled by two leaves" />
+        <img
+          src="images/logo1200.png"
+          title="My company logo"
+          alt="An image showing a toque above the word 'bakery' encircled by two leaves"
+        />
       </aside>
       <article>
         <h1 class="header" id="pies-heading">Pies</h1>
-        <section class="columns-desktop">
+        <div class="columns-desktop">
           <div class="pie">
             <img src="images/apple-pie.png" alt="Apple Pie" />
             <div class="columns">
@@ -33,7 +36,7 @@
               <div class="price">$12.95</div>
             </div>
             <p class="desc">Our famous apple pie</p>
-            <button data-order="apple-pie">Order</button>
+            <button data-order="apple-pie" type="submit">Order</button>
           </div>
 
           <div class="pie">
@@ -43,9 +46,9 @@
               <div class="price">$15.95</div>
             </div>
             <p class="desc">A summer classic!</p>
-            <button data-order="cherry-pie">Order</button>
+            <button data-order="cherry-pie" type="submit">Order</button>
           </div>
-        </section>
+        </div>
       </article>
     </main>
 
@@ -58,6 +61,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="script/script.js"></script>
   </body>
-  <script src="script/script.js" type="text/javascript"></script>
 </html>
