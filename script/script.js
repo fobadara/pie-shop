@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", function (e) {
   const pieOrder = JSON.parse(order);
 
   if (order) {
-    const pie = document.querySelector(".pie");
+    const pie = document.querySelector(".order-pie");
     const title = pie.querySelector(".title");
     const price = pie.querySelector(".price");
     const desc = pie.querySelector(".desc");
