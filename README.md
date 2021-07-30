@@ -3,8 +3,19 @@
 A site that takes your orders and gets your location (with your permission ofcourse)
 
 ![screenshot](images/homepage.png)
+![screenshot](images/screenshot-pies.png)
+![screenshot](images/screenshot-order.png)
+![screenshot](images/screenshot-contact.png)
 
-Built With
+<div style="text-align:center">![Live Demo](https://fobadara.github.io/pie-shop/contact.html)</div>
+
+# Description
+
+![screenshot](images/pie-shop.gif)
+
+A pie shop mini-website that receives input from the user include longitude and latitude details through the Geolocation Browser API and stores small quantity of data using the Local Storage Browser API
+
+# Built With
 
 ● HTML
 
@@ -50,7 +61,7 @@ GitHub: github.com/fobadara
 
 Twitter: fob90s@twitter.com
 
-🤝 # Contributing 
+🤝 # Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -72,6 +83,6 @@ A big thank you to pngtree whose images have been used:
 
 Lots of appreciations to my wife, Habeebah who keeps supporting me
 
-📝 # License 
+📝 # License
 
 This project is licensed by [MIT](LICENSE)
