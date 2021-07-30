@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap");
+
+/* General */
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: cursive, sans-serif;
+  background-color: #999;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #a493c0;
+  font-family: "Cookie", verdana Arial sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  margin: 0.5em 0 0.5em 0;
+}
+
+aside img {
+  width: 8em;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a493c0;
+  padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: inline;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 5px;
+}
+
+main {
+  display: block;
+  background-image: url("../images/background.png");
+  padding-top: 3em;
+  padding-bottom: 3em;
+  min-height: 85%;
+}
+
+footer {
+  padding: 15px;
+}
+
+aside,
+article {
+  padding: 2em;
+}
+
+aside {
+  text-align: center;
+}
+
+article {
+  width: 75%;
+}
+
+.columns {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+  }
+
+  aside {
+    margin-left: 2%;
+  }
+
+  .columns-desktop {
+    display: flex;
+  }
+}
+
+/* Pie */
+.pie {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: solid 1px #ccc;
+}
+
+.pie img {
+  width: 100%;
+}
+
+.pie .title {
+  font-weight: bold;
+}
+
+.pie .price {
+  text-align: right;
+}
+
+.pie .columns {
+  width: 100%;
+}
+
+.pie .columns div {
+  width: 50%;
+}
+
+.pie button {
+  background-color: #f6aeae;
+  padding: 10px;
+  border: solid 1px #f6aeae;
+  border-radius: 3px;
+  color: rgb(255, 136, 136);
+}
+
+/* Index.html */
+h1 {
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+.sub-title {
+  background-color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.pie button {
+  background-color: #f6aeae;
+  padding: 10px;
+  border: solid 1px #f6aeae;
+  border-radius: 3px;
+  color: rgb(255, 136, 136);
+}
+
+/* order.html */
+#order {
+  text-align: left;
+}
+
+.pie {
+  border: solid #df7a7a;
+  border-radius: 5px;
+  background-color: #e2892f;
+  color: #fff;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: solid thin #ffd700;
+}
+
+/* pies.html */
+#pies-heading {
+  text-align: left;
+}
