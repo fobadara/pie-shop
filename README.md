@@ -7,7 +7,7 @@ A site that takes your orders and gets your location (with your permission ofcou
 ![screenshot](images/screenshot-order.png)
 ![screenshot](images/screenshot-contact.png)
 
-<div style="text-align: center"><a href="https://fobadara.github.io/pie-shop/contact.html">Live Demo</a></div>
+<div align="center"><a href="https://fobadara.github.io/pie-shop">Live Demo</a></div>
 
 # Description
 
