@@ -122,15 +122,15 @@ h1 {
 
 /* Pies.html */
 .pie {
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
+  width: 10em;
+  padding: 0.3em;
+  margin: 0.5em;
+  margin-bottom: 20px;
   border: solid #df7a7a;
   border-radius: 5px;
   background-color: #e2892f;
   color: #fff;
 }
-
 
 #pies-heading {
   text-align: left;
@@ -161,7 +161,7 @@ h1 {
   padding: 10px;
   border: solid 1px #f6aeae;
   border-radius: 3px;
-  color: rgb(255, 136, 136);
+  color: #fff;
 }
 
 /* order.html */
@@ -171,7 +171,8 @@ h1 {
 
 input:hover,
 select:hover,
-textarea:hover {
+textarea:hover,
+button:hover {
   box-shadow: 2px 2px 2px 2px #888;
 }
 
@@ -181,14 +182,14 @@ textarea:focus {
   outline: solid thin #ffd700;
 }
 
+button:active {
+  padding: 5px;
+}
+
 @media only screen and (min-width: 768px) {
   article {
     width: 350px;
   }
-}
-
-.pie {
-  margin-bottom: 20px;
 }
 
 .input-group {
@@ -215,14 +216,10 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-input[type="submit"]:active {
-  border: solid 1px #999;
-  border-radius: 3px;
-  padding: 10px;
-}
-
-input[type="submit"]:active:focus {
-  background-color: #999;
+input[type="submit"]:active,
+input[type="reset"]:active {
+  color: #999;
+  padding: 2px;
   outline: none;
 }
 
