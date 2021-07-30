@@ -57,7 +57,7 @@ You can run tests by following these steps:
 
 👤 Abdulfatai Badara
 
-GitHub: github.com/fobadara
+GitHub: [https://github.com/fobadara](https://github.com/fobadara)
 
 Twitter: fob90s@twitter.com
 
