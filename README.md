@@ -61,7 +61,7 @@ GitHub: [https://github.com/fobadara](https://github.com/fobadara)
 
 Twitter: fob90s@twitter.com
 
-🤝 # Contributing
+🤝 **Contributing**
 
 Contributions, issues, and feature requests are welcome!
 
@@ -83,6 +83,6 @@ A big thank you to pngtree whose images have been used:
 
 Lots of appreciations to my wife, Habeebah who keeps supporting me
 
-📝 # License
+📝 **License**
 
 This project is licensed by [MIT](LICENSE)
